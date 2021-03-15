@@ -6,6 +6,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+     CODECOV_TOKEN: 'dc4d79fe-faec-4225-8ffd-3347187d3a1b'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-java@v1
